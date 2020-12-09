@@ -1,0 +1,22 @@
+{
+  "name": "roll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vaadin/vaadin-button": "^2.4.0",
+    "@vaadin/vaadin-checkbox": "^2.5.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-multi-entry": "^4.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
